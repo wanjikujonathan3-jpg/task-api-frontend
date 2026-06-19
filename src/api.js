@@ -1,7 +1,7 @@
 ﻿import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://taskapi-1-5rf9.onrender.com',
+  baseURL: 'https://taskapi-1-5rf9.onrender.com/api',
 })
 
 API.interceptors.request.use((config) => {
